@@ -24,7 +24,7 @@ _GitHub Copilotの開発ワークフローを拡張するためのツールを�
 
 エクササイズを自分のアカウントにコピーし、お気に入りのOctocat (Mona) に**約20秒**待ってもらい、最初のレッスンが準備できたら**ページをリフレッシュ**してください
 
-[![](https://img.shields.io/badge/Copy%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=skills&template_name=integrate-mcp-with-copilot&owner=%40me&name=skills-integrate-mcp-with-copilot&description=Exercise:+Integrate+Model+Context+Protocol+with+GitHub+Copilot&visibility=public)
+[![](https://img.shields.io/badge/Copy%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=matakaha&template_name=integrate-mcp-with-copilot-jp&owner=%40me&name=skills-integrate-mcp-with-copilot-jp&description=演習:+Model+Context+Protocol+をGitHub+Copilot+に統合する&visibility=public)
 
 <details>
 <summary>トラブルシューティング 🤷</summary><br/>
