@@ -1,3 +1,3 @@
-# Hard to change activities
+# アクティビティの変更が難しい
 
-Teachers are afraid to modify the program since they think they might break it. Move the list of activities out of the python file into a dedicated `activities.json` file.
+先生たちはプログラムを壊してしまうのではないかと心配して、修正するのをためらっています。アクティビティのリストをpythonファイルから専用の `activities.json` ファイルに移動してください

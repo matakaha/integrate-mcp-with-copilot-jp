@@ -1,19 +1,17 @@
-# Admin Mode
+# 管理者モード
 
-## Problem
+## 問題
 
-Students are removing each other to free up space for themselves in the activities.
+生徒が自分のためにアクティビティの枠を空けるために、他の生徒を削除しています
 
-## Recommended Solution
+## 推奨される解決策
 
-Add a user icon in the top right. When clicked it shows a login button. When the login button is clicked, it presents a window to enter a username and password.
+右上にユーザーアイコンを追加してください。クリックするとログインボタンが表示されます。ログインボタンをクリックすると、ユーザー名とパスワードを入力するウィンドウが表示されます
 
-- Only the teachers (logged in) have the ability to register and unregister students to activities.
+- 先生（ログイン済み）のみが生徒のアクティビティ登録・登録解除ができるようにしてください
+- 生徒（未ログイン）は誰が登録しているかを見ることはできます
+- アカウント管理ページは不要です。先生にはパスワードを割り当ててください
 
-- The students (not logged in) can still view who is registered.
+## コンテキスト
 
-- There is no need for an account maintenance page. Teachers will be assigned passwords.
-
-## Context
-
-Since there is no database yet, please store the teacher usernames and passwords in a `json` file that is checked by the backend.
+まだデータベースがないため、先生のユーザー名とパスワードはバックエンドで確認する `json` ファイルに保存してください

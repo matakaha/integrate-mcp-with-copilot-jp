@@ -1,45 +1,45 @@
 # Integrate MCP with GitHub Copilot
 
-_Learn how to give GitHub Copilot more tools to expand the capabilities of your development workflow. All in less than an hour!_
+_GitHub Copilotの開発ワークフローを拡張するためのツールを追加する方法を学びます。1時間以内で完了します！_
 
-## Welcome
+## ようこそ
 
-- **Who is this for**: Developers looking to enhance their AI-assisted workflows, GitHub Copilot users, and AI enthusiasts.
-- **What you'll learn**: We'll introduce MCP basics, a GitHub MCP server setup, and integration with Copilot Agent Mode.
-- **What you'll build**: A mixed development workflow that uses GitHub Copilot to manage issues while upgrading the extracurricular activities website for Mergington High School.
-- **Prerequisites**: [Getting Started with Copilot](https://github.com/skills/getting-started-with-github-copilot) Exercise
-- **How long**: This exercise takes less than one hour to complete.
+- **対象者**: AIアシスト開発ワークフローを強化したい開発者、GitHub Copilotユーザー、AI愛好家
+- **学べること**: MCPの基本、GitHub MCPサーバーのセットアップ、Copilot Agent Modeとの統合を紹介します
+- **作成するもの**: GitHub Copilotを使って課題管理を行いながら、Mergington High Schoolの課外活動Webサイトをアップグレードする混合開発ワークフロー
+- **前提条件**: [Getting Started with Copilot](https://github.com/skills/getting-started-with-github-copilot) 演習
+- **所要時間**: この演習は1時間以内で完了します
 
-In this exercise, you will:
+この演習で行うこと:
 
-1. Integrate a GitHub MCP server with GitHub Copilot.
-2. Delegate Copilot to research similar projects and open issues.
-3. Ask Copilot to find an important issue and implement it from idea to pull request.
-4. Add comments to a recently closed issue.
+1. GitHub MCPサーバーをGitHub Copilotと統合する
+2. Copilotに類似プロジェクトの調査や課題の作成を委任する
+3. 重要な課題を見つけて、アイデアからPull Requestまで実装するようCopilotに依頼する
+4. 最近クローズされた課題にコメントを追加する
 
-### How to start this exercise
+### この演習の始め方
 
 > [!IMPORTANT]
-> This exercise assumes basic knowledge of [GitHub Copilot](https://github.com/features/copilot). If you are unfamiliar, we recommend the [Getting Started with Copilot](https://github.com/skills/getting-started-with-github-copilot) exercise.
+> この演習は[GitHub Copilot](https://github.com/features/copilot)の基本的な知識があることを前提としています。未経験の場合は、[Getting Started with Copilot](https://github.com/skills/getting-started-with-github-copilot) 演習をおすすめします
 
-Simply copy the exercise to your account, then give your favorite Octocat (Mona) **about 20 seconds** to prepare the first lesson, then **refresh the page**.
+エクササイズを自分のアカウントにコピーし、お気に入りのOctocat (Mona) に**約20秒**待ってもらい、最初のレッスンが準備できたら**ページをリフレッシュ**してください
 
 [![](https://img.shields.io/badge/Copy%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=skills&template_name=integrate-mcp-with-copilot&owner=%40me&name=skills-integrate-mcp-with-copilot&description=Exercise:+Integrate+Model+Context+Protocol+with+GitHub+Copilot&visibility=public)
 
 <details>
-<summary>Having trouble? 🤷</summary><br/>
+<summary>トラブルシューティング 🤷</summary><br/>
 
-When copying the exercise, we recommend the following settings:
+エクササイズをコピーする際は、以下の設定をおすすめします
 
-- For owner, choose your personal account or an organization to host the repository.
+- オーナーには自分の個人アカウントまたはリポジトリをホストする組織を選択してください
 
-- We recommend creating a public repository, since private repositories will use Actions minutes.
+- 公開リポジトリの作成をおすすめします。プライベートリポジトリの場合、Actionsの利用分が消費されます
 
-If the exercise isn't ready in 20 seconds, please check the [Actions](../../actions) tab.
+20秒経っても演習が準備できていない場合は、[Actions](../../actions) タブを確認してください
 
-- Check to see if a job is running. Sometimes it simply takes a bit longer.
+- ジョブが実行中かどうか確認してください。少し時間がかかる場合もあります
 
-- If the page shows a failed job, please submit an issue. Nice, you found a bug! 🐛
+- ページに失敗したジョブが表示されている場合は、Issueを提出してください。バグを見つけてくれてありがとう！🐛
 
 </details>
 

@@ -1,34 +1,32 @@
-## Step 2: Agent Mode and an MCP Server for GitHub
+## Step 2: AgentモードとGitHub用MCPサーバー
 
-Great work! You just connected your first MCP server to GitHub Copilot! 🎉
+素晴らしいです！あなたは最初のMCPサーバーをGitHub Copilotに接続できました 🎉
 
-🚨 It seems the teachers keep submitting bugs and requests! So many good ideas! We should probably look into them and start researching for other upgrades.
+🚨 先生たちがバグやリクエストをどんどん送ってきています！良いアイデアがたくさんあります！これらを確認し、他のアップグレードの調査も始めましょう
 
-Fortunately, with an MCP server for GitHub, triaging these and even doing some research to get ahead should be pretty quick! 🕵️
+幸い、GitHub用のMCPサーバーがあれば、これらのトリアージやリサーチもすぐにできるはずです 🕵️
 
-### How do we use an MCP server's tools?
+### MCPサーバーのツールはどう使うのですか？
 
-Good news! The same way you would normally interact with Copilot, natural language. Just keep in mind the available capabilities and any permission restrictions from your token.
+良いニュースです！Copilotとやり取りするのと同じように自然言語で使えます。利用可能な機能やトークンの権限制限だけは意識してください
 
-So, with the MCP Server available, we can now ask Copilot things beyond just our code. Here are some ideas to imagine the possibilities:
+つまり、MCPサーバーが使えることで、コード以外のこともCopilotに頼めるようになりました。例えばこんなことができます
 
-For example:
+- 説明、コメント、いいねを考慮したIssueの検索
+- 他のリポジトリでIssueを開く、更新する、閉じる
+- リポジトリの比較
+- 一緒に作業している他の作者について知る
+- Issueを取得し、ブランチで変更してプルリクエストを開始する
 
-- Searching issues considering description, comments, and likes.
-- To open, update, or close issues on another repository.
-- Comparing repositories.
-- Learning about other authors you are working with.
-- Retrieve an issue, make changes on a branch, and start a pull request.
+すごいですよね？！それではやってみましょう 👩‍🚀
 
-Isn't that cool?! Now let's do it! 👩‍🚀
+### :keyboard: アクティビティ: アイデアを素早く見つけて保存しましょう
 
-### :keyboard: Activity: Quickly find and save ideas
+1. Codespace内で開いているファイルをすべて閉じてください。不要なコンテキストを減らすためです
 
-1. Close any open files inside your codespace. This will help reduce unnecessary context.
+1. **Copilot Chat** パネルが開いていて **Agent** モードが選択されていること、MCPサーバーツールが利用可能なことを確認してください
 
-1. Ensure the **Copilot Chat** panel is open and **Agent** mode is selected. Verify the MCP server tools are also still available.
-
-1. Ask Copilot to search GitHub for projects similar to this one.
+1. Copilotに、これと似たプロジェクトをGitHubで検索するよう依頼してください
 
    > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
    >
@@ -36,11 +34,11 @@ Isn't that cool?! Now let's do it! 👩‍🚀
    > Search for any other repositories for organizing extra curricular activities
    > ```
 
-1. When an MCP tool is required, Copilot will ask for permission. **Verify the request** and modify if necessary, then click **Continue**.
+1. MCPツールが必要な場合、Copilotが許可を求めてきます。**リクエスト内容を確認**し、必要に応じて修正し、**Continue** をクリックしてください
 
    <img width="250" alt="request permission dialog" src="https://github.com/user-attachments/assets/229473af-c206-47a4-b356-943b9c9bd946" />
 
-1. Ask Copilot to describe one of the projects. Explore until you find something you like.
+1. Copilotにプロジェクトの1つを説明するよう依頼してください。気に入るものが見つかるまで探索してください
 
    > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
    >
@@ -48,7 +46,7 @@ Isn't that cool?! Now let's do it! 👩‍🚀
    > Please look at the code for the 3rd option and give me a detailed description of the features.
    > ```
 
-1. Use Copilot to compare and generate ideas for enhancements.
+1. Copilotを使って、機能を比較し、強化案のアイデアを出してください
 
    > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
    >
@@ -56,7 +54,7 @@ Isn't that cool?! Now let's do it! 👩‍🚀
    > Please compare these features to our project. Which would be new?
    > ```
 
-1. Nice! Let's have Copilot create issues to save these ideas.
+1. いいですね！CopilotにこれらのアイデアでIssueを作成してもらいましょう
 
    > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
    >
@@ -64,14 +62,13 @@ Isn't that cool?! Now let's do it! 👩‍🚀
    > I like it. Let's create issues for these in my repository.
    > ```
 
-1. Copilot will ask for permission to create issues on your repository. Click **Continue** for each new issue. Reminder: **verify the request** before running.
+1. CopilotがリポジトリにIssueを作成する許可を求めてきます。新しいIssueごとに **Continue** をクリックしてください。**リクエスト内容を確認**してから実行してください
 
    <img width="250" alt="request permission dialog" src="https://github.com/user-attachments/assets/52635294-950a-4168-b71e-498eb769f3af" />
 
-1. Since we are done researching, let's finish this chat session to clear the context. At the top of the **Copilot Chat** panel, click the **New Chat** icon (plus sign).
+1. 調査が終わったので、チャットセッションを終了してコンテキストをクリアしましょう。**Copilot Chat** パネル上部の **New Chat** アイコン（プラス記号）をクリックしてください
 
-1. With the new issues created, Mona should already be busy checking your work. Give her a moment and keep watch in the comments. You will see her respond with progress info and the next lesson.
-
+1. 新しいIssueが作成されたら、Monaが作業をチェックし始めているはずです。コメント欄で進捗情報や次のレッスンを確認してください
 
 > [!NOTE]
-> The Model Context Protocol (MCP) landscape is quickly evolving. Many servers, including the [Official GitHub MCP server](https://github.com/github/github-mcp-server) are in active development and do not have full parity with their stable APIs.
+> Model Context Protocol（MCP）の状況は急速に進化しています。[Official GitHub MCP server](https://github.com/github/github-mcp-server) を含む多くのサーバーが活発に開発中で、安定APIと完全な互換性がない場合があります

@@ -1,27 +1,27 @@
-## Step 4: Validating AI-generated code
+## Step 4: AI生成コードの検証
 
-Great work on implementing that issue! Our extracurricular activities site is getting better every day! 💚
+課題の実装お疲れさまでした！課外活動サイトは日々良くなっていますね！💚
 
-While AI assistants like GitHub Copilot can dramatically improve productivity, it's essential to remember that **_you_** are responsible for reviewing and validating all work, generated or not.
+GitHub CopilotのようなAIアシスタントは生産性を大きく向上させますが、**_最終的な確認と検証はあなた自身_** の責任であることを忘れないでください
 
 > [!tip]
-> In real projects, many teams use [GitHub Actions](https://github.com/features/actions) to setup automated testing.
+> 実際のプロジェクトでは、多くのチームが [GitHub Actions](https://github.com/features/actions) を使って自動テストを設定しています
 
-### :keyboard: Activity: Review and merge the AI solution
+### :keyboard: アクティビティ: AIソリューションをレビューしてマージしましょう
 
-1. Open the new pull request created by Copilot in a new tab.
+1. Copilotが作成した新しいプルリクエストを新しいタブで開いてください
 
    [![Examine the pull request](https://img.shields.io/badge/-Open%20Pull%20Request-1f883d?logo=github)]({{{pull_request_url}}})
 
-   > ✨ **Bonus:** If your Copilot subscription provides it, you can also use a specialised version of Copilot to [review the changes](https://docs.github.com/en/copilot/using-github-copilot/code-review/using-copilot-code-review?tool=webui).
+   > ✨ **ボーナス:** Copilotサブスクリプションによっては、[Copilotのコードレビュー機能](https://docs.github.com/en/copilot/using-github-copilot/code-review/using-copilot-code-review?tool=webui)も利用できます
 
-1. Review the changes. When you are satisfied, merge the pull request.
+1. 変更内容を確認し、問題なければプルリクエストをマージしてください
 
-1. Return to VS code and the active **Copilot Chat** session.
+1. VS Codeとアクティブな **Copilot Chat** セッションに戻ってください
 
-   > 🚨 **Important:** If you previously clicked Done and need to return to a previous conversation, use the **Show Chats** button at the top of the Copilot Chat panel to restore it.
+   > 🚨 **重要:** 以前にDoneをクリックして前の会話に戻りたい場合は、Copilot Chatパネル上部の **Show Chats** ボタンで復元できます
 
-1. Ask Copilot to add a comment to the issue we just finished, and to say thanks for the comments and ideas.
+1. Copilotに、今終えたIssueにコメントを追加し、コメントやアイデアをくれた人たちに感謝のメッセージを依頼してください
 
    > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
    >
@@ -31,13 +31,13 @@ While AI assistants like GitHub Copilot can dramatically improve productivity, i
    > ```
 
    <details>
-   <summary>Having trouble? 🤷</summary><br/>
+   <summary>トラブルシューティング 🤷</summary><br/>
 
-   Some things to check
+   以下を確認してください
 
-   - Is your MCP Server still running?
-   - Check what information is passed to the MCP server calls - is Copilot using the correct repository?
-   - Did Copilot comment on the bug report?
+   - MCPサーバーがまだ動作しているか
+   - MCPサーバーへのリクエストで正しいリポジトリ情報が渡されているか
+   - Copilotがバグレポートにコメントしたか
    </details>
 
-1. Once the comment has been created, Mona will start checking your work. Give her a moment to provide feedback or share the final review. Nice work! You're all done! 🎉
+1. コメントが作成されたら、Monaが作業をチェックし始めます。フィードバックや最終レビューを待ってください。お疲れさまでした！🎉

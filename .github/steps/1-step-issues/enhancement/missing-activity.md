@@ -1,22 +1,22 @@
-# 🚨 Missing Activity: GitHub Skills
+# 🚨 アクティビティがありません: GitHub Skills
 
-The GitHub Skills activity announced by our principal is missing from the school activities signup page.
+校長先生が発表したGitHub Skillsアクティビティが学校のアクティビティ申込ページにありません
 
-Yesterday in the school assembly, the principal announced a new partnership with GitHub to teach students practical coding and collaboration skills. However, when I try to sign up for this activity, I can't find it on the website.
+昨日の全校集会で、校長先生がGitHubと新たに提携し、生徒に実践的なコーディングやコラボレーションスキルを教えるアクティビティを始めると発表しました。しかし、このアクティビティに申し込もうとしても、ウェブサイト上で見つかりません
 
-I can see several other activities, like these, so I think I have access.
+他のアクティビティ（下記）は見えるので、アクセス権はあると思います
 
 - ✅ Chess Club
 - ✅ Programming Class
 - ✅ Gym Class
 
-## ⏱️ Timeline
+## ⏱️ タイムライン
 
-This is time-sensitive as the announcement mentioned registrations would close by the end of this week. Many students are eager to join. It's the first part of our [GitHub Certifications program](https://resources.github.com/learn/certifications/), which will help with college applications.
+この件は時間に敏感です。発表では今週末までに登録が締め切られるとありました。多くの生徒が参加を希望しています。これは[GitHub Certifications program](https://resources.github.com/learn/certifications/)の第一歩で、大学出願にも役立ちます
 
-## 💡 Expected Outcome
+## 💡 期待される結果
 
-The GitHub Skills activity should be added to the system and available for registration like other activities
+GitHub Skillsアクティビティが他のアクティビティと同様にシステムに追加され、登録できるようになっているべきです
 
 Hewbie C.
-11th Grade Student
+11年生

@@ -1,8 +1,8 @@
-# Missing School Pride
+# 学校の誇りが足りません
 
-The website is blue, but our school colors are white and lime green. Please fix this.
+ウェブサイトが青色ですが、私たちの学校のカラーは白とライムグリーンです。修正してください
 
-Also, why are none of our mascots on the page?
-Please use the various options from https://octodex.github.com/
+また、なぜマスコットがページにいないのでしょうか？
+https://octodex.github.com/ のさまざまなオプションを使ってください
 
-Oh one more idea, I think it would look cool if the background had various Git-style branch lines slowly animating! That's easy, right?
+もう一つアイデアがあります。背景にGit風のブランチラインがゆっくりアニメーションするのはかっこいいと思います。それって簡単ですよね？

@@ -1,20 +1,20 @@
-## Step 3: Solve issues with Agent Mode and GitHub MCP Server
+## Step 3: AgentモードとGitHub MCPサーバーで課題を解決しましょう
 
-Great work doing that research and finding a potential collaboration opportunity.
-Not only did we find some new ideas to help organize extracurricular activities, but we did all that quickly too.
+リサーチとコラボレーションの機会を見つける作業、お疲れさまでした
+課外活動を整理するための新しいアイデアも見つかり、しかも素早くできました
 
-Plenty of time to focus on the fun stuff, like teaching our awesome students! 🌱
+これで楽しいこと、つまり素晴らしい生徒たちに教えることに集中できますね！🌱
 
-On that note, it seems the teachers have also been active.
-Looks like they submitted some bugs and requests! Perfect! 🚀
+さて、先生たちも活発に活動しているようです
+バグやリクエストがいくつか提出されています！完璧です！🚀
 
-Now, let's use our MCP server's tools and Copilot to do a bit of triage and get some work done.
+それでは、MCPサーバーのツールとCopilotを使って、トリアージや作業を進めましょう
 
-### :keyboard: Activity: Easily implement an important issue
+### :keyboard: アクティビティ: 重要な課題を簡単に実装しましょう
 
-1. Ensure the **Copilot Chat** panel is open and **Agent** mode is selected. Verify the MCP server tools are also still available.
+1. **Copilot Chat** パネルが開いていて **Agent** モードが選択されていること、MCPサーバーツールが利用可能なことを確認してください
 
-1. Ask Copilot about the open issues on this repository.
+1. CopilotにこのリポジトリのオープンなIssue数を尋ねてください
 
    > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
    >
@@ -22,9 +22,9 @@ Now, let's use our MCP server's tools and Copilot to do a bit of triage and get 
    > How many open issues are there on my repository?
    > ```
 
-   > 🪧 **Note:** Check that the List Issues tool is called with proper parameters.
+   > 🪧 **注意:** List Issuesツールが正しいパラメータで呼び出されているか確認してください
 
-1. Ask Copilot to summarize the important issues.
+1. Copilotに重要なIssueを要約するよう依頼してください
 
    > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
    >
@@ -34,17 +34,17 @@ Now, let's use our MCP server's tools and Copilot to do a bit of triage and get 
    > ```
 
    <details>
-   <summary> <b> 💡 Tip:</b> Pre-authorize tool usage</summary><br/>
+   <summary> <b> 💡 ヒント:</b> ツールの事前承認</summary><br/>
 
-   If Copilot uses a tool often, you can proactively grant permission for the rest of the conversation session.
+   Copilotがツールを頻繁に使う場合、会話セッション中は事前に許可を与えることができます
 
    <img width="350" src="https://github.com/user-attachments/assets/d741191e-4d98-489d-92d2-f1069fd6c34e"/>
 
    </details>
 
-1. Review the suggested issues. If Copilot didn't give a specific recommendation, try providing some feedback to narrow the results.
+1. 提案されたIssueを確認してください。Copilotが具体的な提案をしなかった場合は、フィードバックを与えて結果を絞り込んでください
 
-1. With the list narrowed, ask Copilot to implement an issue. **Mona won't grade if the changes work, just that an attempt was made.**
+1. 絞り込んだリストから、CopilotにIssueの実装を依頼してください。**Monaは変更が動作するかどうかではなく、試みがなされたかどうかだけを評価します**
 
    > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
    >
@@ -55,14 +55,14 @@ Now, let's use our MCP server's tools and Copilot to do a bit of triage and get 
    > 3. Push the changes and start a pull request.
    > ```
 
-   > ⚠️ **Warning:** Always verify the the actions Copilot is asking to perform, especially with the external abilities provided by an MCP server, which probably have no undo option.
+   > ⚠️ **警告:** Copilotが実行しようとしているアクションは必ず確認してください。特にMCPサーバーによる外部操作には元に戻す手段がない場合があります
 
-1. Once the pull request is created, Mona will start checking your work. Give her a moment and keep watch of the comments. You will see her respond with progress info and the next step!
+1. プルリクエストが作成されたら、Monaが作業をチェックし始めます。コメント欄で進捗情報や次のステップを確認してください
 
 <details>
-<summary>Having trouble?</summary><br/>
+<summary>トラブルシューティング</summary><br/>
 
-- If tools are not being requested, verify your MCP configuration is correct.
-- If Copilot cannot retrieve results, verify you are using this Codespace's token or a Personal Access Token (PAT) with appropriate permissions. By default, the codespace token we are using only has access to this repository.
+- ツールがリクエストされない場合は、MCPの設定が正しいか確認してください
+- Copilotが結果を取得できない場合は、このCodespaceのトークンまたは適切な権限を持つPersonal Access Token（PAT）を使っているか確認してください。デフォルトでは、このリポジトリにのみアクセス権があります
 
 </details>

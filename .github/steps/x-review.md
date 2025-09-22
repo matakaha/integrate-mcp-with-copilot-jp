@@ -1,14 +1,14 @@
-## Review
+## レビュー
 
-_Congratulations, you've completed this Exercise and learned the basics of MCP !_
+_おめでとうございます。この演習を完了し、MCPの基本を学ぶことができました！_
 
 <img src=https://octodex.github.com/images/collabocats.jpg alt=celebrate width=300 align=right>
 
-### What's next?
+### 次にやること
 
 
-Check out these resources to learn more or get involved:
+さらに学んだり参加したりするには、以下のリソースをチェックしてください
 
-- [Take another GitHub Skills exercise](https://skills.github.com).
-- Learn more about [Model Context Protocol](https://modelcontextprotocol.io/introduction)
-- Try other MCP servers! GitHub is just one of [many](https://github.com/modelcontextprotocol/servers)
+- [別のGitHub Skills演習に挑戦する](https://skills.github.com)
+- [Model Context Protocol](https://modelcontextprotocol.io/introduction) についてさらに学ぶ
+- 他のMCPサーバーも試してみてください。GitHubは[多くの中の一つ](https://github.com/modelcontextprotocol/servers)です

@@ -1,15 +1,15 @@
-# Add filters
+# フィルターを追加してください
 
-There seems to be no order to the activities. Please fix this.
+アクティビティに順序がないように見えます。修正してください
 
-Here are my ideas, maybe in a toolbar above the activity cards.
+私のアイデアをいくつか挙げます。たとえばアクティビティカードの上にツールバーとして追加するのはどうでしょうか
 
-- Add some filters, for example by category. If needed, add a field to the JSON.
-- Add options to sort, for example by name or time. If needed, add a date field but leave the textual description version of the time.
-- Add a free text search.
+- カテゴリなどでフィルターを追加してください。必要であればJSONにフィールドを追加してください
+- 名前や時間で並べ替えるオプションを追加してください。必要であれば日付フィールドを追加してもいいですが、時間のテキスト説明バージョンは残してください
+- フリーテキスト検索を追加してください
 
-Obviously, make sure it still looks good on desktop and phone.
+もちろん、デスクトップとスマートフォンの両方で見た目が良いままにしてください
 
------ COMMENTS -----
-This will be so useful. We should be proactive and do this before the list gets even longer.
-Let's do it! I would love to help out. I just took a coding class. 🤓
+----- コメント -----
+これはとても便利になります。リストがさらに長くなる前に積極的にやるべきです
+やりましょう！手伝いたいです。最近コーディングのクラスを受けました 🤓
