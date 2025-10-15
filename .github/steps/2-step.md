@@ -31,7 +31,7 @@
    > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
    >
    > ```prompt
-   > Search for any other repositories for organizing extra curricular activities
+   > 他のRepositoryを探して、課外活動を整理するために役立ちそうなものを提示してください
    > ```
 
 1. MCPツールが必要な場合、Copilotが許可を求めてきます。**リクエスト内容を確認**し、必要に応じて修正し、**Continue** をクリックしてください
@@ -43,7 +43,7 @@
    > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
    >
    > ```prompt
-   > Please look at the code for the 3rd option and give me a detailed description of the features.
+   > 3番目に提示してくれたRepositoryのコードを見て、機能の詳細な説明をしてください。
    > ```
 
 1. Copilotを使って、機能を比較し、強化案のアイデアを出してください
@@ -51,7 +51,7 @@
    > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
    >
    > ```prompt
-   > Please compare these features to our project. Which would be new?
+   > 記載されている機能を私たちのプロジェクトと比較してください。新しく取り入れると良さそうな機能はありますか？
    > ```
 
 1. いいですね！CopilotにこれらのアイデアでIssueを作成してもらいましょう
@@ -59,7 +59,7 @@
    > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
    >
    > ```prompt
-   > I like it. Let's create issues for these in my repository.
+   > 気に入りました。私のRepositoryにこれらを実装するためのIssueを作成してください。
    > ```
 
 1. CopilotがリポジトリにIssueを作成する許可を求めてきます。新しいIssueごとに **Continue** をクリックしてください。**リクエスト内容を確認**してから実行してください
