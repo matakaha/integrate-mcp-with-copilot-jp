@@ -19,7 +19,7 @@
    > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
    >
    > ```prompt
-   > How many open issues are there on my repository?
+   > 私のリポジトリには未解決のissueがいくつありますか？
    > ```
 
    > 🪧 **注意:** List Issuesツールが正しいパラメータで呼び出されているか確認してください
@@ -29,8 +29,7 @@
    > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
    >
    > ```prompt
-   > Oh no. That's too many for me! Please get the list of issues,
-   > review the descriptions and comments, and pick the top 3 most important.
+   > えぇぇ、、、それは一人で対処するには多すぎますね！ Issueのリストを取得して、説明とコメントを確認、最も重要な上位3件を選んでください。
    > ```
 
    <details>
@@ -49,10 +48,10 @@
    > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
    >
    > ```prompt
-   > #codebase Let's do the first one. Follow these steps:
-   > 1. Checkout a new local branch for making our changes.
-   > 2. Make the changes then confirm with me that they look correct.
-   > 3. Push the changes and start a pull request.
+   > #codebase とりあえず１つ目にとりかかってください。以下のステップに従ってください:
+   > 1. 変更を加えるために新しいローカルブランチをチェックアウトします。
+   > 2. 変更を加えたら、それが正しいかどうか私に確認してください。
+   > 3. 変更をプッシュして、プルリクエストを開始してください。
    > ```
 
    > ⚠️ **警告:** Copilotが実行しようとしているアクションは必ず確認してください。特にMCPサーバーによる外部操作には元に戻す手段がない場合があります
